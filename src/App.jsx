@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 
 import { AircraftList } from "./components/AircraftList";
+import { FlightList } from "./components/FlightList";
 
 class App extends Component {
     render() {
@@ -11,9 +12,7 @@ class App extends Component {
                 <div className="rotation-container">
                     <p>Rotation</p>
                 </div>
-                <div className="flights-container">
-                    <p>Flights</p>
-                </div>
+                <FlightList />
             </div>
         );
     }
