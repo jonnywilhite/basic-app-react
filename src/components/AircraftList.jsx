@@ -38,7 +38,7 @@ export const AircraftList = () => {
     };
     
     return(
-        <div className="something">
+        <div className="aircraft-container">
             <p>Aircrafts</p>
             <div className="aircraft-box">{renderedAircraftsRef.current}</div>
         </div>

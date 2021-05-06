@@ -7,9 +7,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <div className="aircraft-container">
-                    <AircraftList />
-                </div>
+                <AircraftList />
                 <div className="rotation-container">
                     <p>Rotation</p>
                 </div>

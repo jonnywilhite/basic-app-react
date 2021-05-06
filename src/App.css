@@ -41,12 +41,7 @@
 .aircraft-container {
     display: flex;
     flex-grow: 1;
-}
-
-.something {
-    display: flex;
     flex-direction: column;
-    flex-grow: 1;
 }
 
 .aircraft-padding {
