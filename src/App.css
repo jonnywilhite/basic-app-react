@@ -39,7 +39,29 @@
 }
 
 .aircraft-container {
+    display: flex;
     flex-grow: 1;
+}
+
+.something {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.aircraft-padding {
+    border-bottom: solid;
+    padding: 16px;
+}
+
+.aircraft-entry {
+    border: solid;
+}
+
+.aircraft-box {
+    border-style: solid;
+    flex-grow: 1;
+    margin: 0px 16px 32px 16px;
 }
 
 .rotation-container {
